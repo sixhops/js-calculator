@@ -8,7 +8,7 @@ div {
 }
 
 .calculator {
-  width: 50%;
+  width: 30%;
   position: relative;
   margin: auto;
 }
@@ -18,21 +18,35 @@ div {
   position: relative;
 }
 
+.display input {
+  width: 100%;
+  font-size: 2em;
+}
+
 .keypad {
   width: 100%;
   position: relative;
+  overflow: auto;
 }
 
 .numerals {
-  width: 60%;
-  position: relative;
-  margin-left: auto;
+  width: 70%;
+  float: left;
+}
+
+.numerals button {
+  float: left;
+  width: 30%;
+  margin: 0.2em;
 }
 
 .operators {
-  width: 40%;
-  position: relative;
-  margin-right: auto;
+  width: 30%;
+  float: right;
+}
+
+.clear {
+  clear: both;
 }
 
 .advanced {
