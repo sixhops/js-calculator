@@ -1,0 +1,39 @@
+html,body{
+  margin:0;
+  padding:0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.calculator {
+  width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+.display {
+  width: 100%;
+  position: relative;
+}
+
+.keypad {
+  width: 100%;
+  position: relative;
+}
+
+.numerals {
+  width: 60%;
+  position: relative;
+  margin-left: auto;
+}
+
+.operators {
+  width: 40%;
+  position: relative;
+  margin-right: auto;
+}
+
+.advanced {
+}
