@@ -40,9 +40,19 @@ div {
   margin: 0.2em;
 }
 
+#n0 {
+  width: 60%;
+}
+
 .operators {
   width: 30%;
   float: right;
+}
+
+.operators button {
+  float: right;
+  width: 25%;
+  margin: 0.2em;
 }
 
 .clear {
