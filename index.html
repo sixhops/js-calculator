@@ -17,26 +17,26 @@
       </div>
       <div class="keypad">
         <div class="numerals">
-          <button type="button" id="n1">1</button>
-          <button type="button" id="n2">2</button>
-          <button type="button" id="n3">3</button>
-          <button type="button" id="n4">4</button>
-          <button type="button" id="n5">5</button>
-          <button type="button" id="n6">6</button>
-          <button type="button" id="n7">7</button>
-          <button type="button" id="n8">8</button>
-          <button type="button" id="n9">9</button>
-          <button type="button" id="n0">0</button>
-          <button type="button" id="ndec">.</button>
+          <button type="button" onclick="clickNumeral(this)" id="1">1</button>
+          <button type="button" onclick="clickNumeral(this)" id="2">2</button>
+          <button type="button" onclick="clickNumeral(this)" id="3">3</button>
+          <button type="button" onclick="clickNumeral(this)" id="4">4</button>
+          <button type="button" onclick="clickNumeral(this)" id="5">5</button>
+          <button type="button" onclick="clickNumeral(this)" id="6">6</button>
+          <button type="button" onclick="clickNumeral(this)" id="7">7</button>
+          <button type="button" onclick="clickNumeral(this)" id="8">8</button>
+          <button type="button" onclick="clickNumeral(this)" id="9">9</button>
+          <button type="button" onclick="clickNumeral(this)" id="0">0</button>
+          <button type="button" onclick="clickNumeral(this)" id="dec">.</button>
         </div>
         <div class="operators">
-          <button type="button" id="oadd">+</button>
-          <button type="button" id="osubtract">-</button>
-          <button type="button" id="omultiply">*</button>
-          <button type="button" id="odivide">/</button>
-          <button type="button" id="oclearentry">CE</button>
-          <button type="button" id="oallclear">AC</button>
-          <button type="button" id="oequals">=</button>
+          <button type="button" onclick="clickOperator(this)" id="oadd">+</button>
+          <button type="button" onclick="clickOperator(this)" id="osubtract">-</button>
+          <button type="button" onclick="clickOperator(this)" id="omultiply">*</button>
+          <button type="button" onclick="clickOperator(this)" id="odivide">/</button>
+          <button type="button" onclick="clickOperator(this)" id="oclearentry">CE</button>
+          <button type="button" onclick="clickOperator(this)" id="oallclear">AC</button>
+          <button type="button" onclick="clickOperator(this)" id="oequals">=</button>
         </div>
         <div class="clear"></div>
         <div class="advanced"></div>
@@ -44,4 +44,5 @@
       
     </div>
     <!-- Scripts -->
+    <script src="script.js"></script>
   </body>
